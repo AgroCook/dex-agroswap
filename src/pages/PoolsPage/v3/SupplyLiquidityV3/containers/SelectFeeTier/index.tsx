@@ -35,11 +35,11 @@ const SelectFeeTier: React.FC<SelectFeeTierProps> = ({ mintInfo }) => {
         text: 'Dynamic',
         description: t('bestForAllPair'),
       },
-      {
-        id: 'uni-0.01',
-        text: '0.01%',
-        description: t('availableForStablePair'),
-      },
+      // {
+      //   id: 'uni-0.01',
+      //   text: '0.01%',
+      //   description: t('availableForStablePair'),
+      // },
       {
         id: 'uni-0.05',
         text: '0.05%',
@@ -123,11 +123,11 @@ const SelectFeeTier: React.FC<SelectFeeTierProps> = ({ mintInfo }) => {
       },
     ],
     [ChainId.TIMX]: [
-      {
-        id: 'uni-0.01',
-        text: '0.01%',
-        description: t('availableForStablePair'),
-      },
+      // {
+      //   id: 'uni-0.01',
+      //   text: '0.01%',
+      //   description: t('availableForStablePair'),
+      // },
       {
         id: 'uni-0.05',
         text: '0.05%',
